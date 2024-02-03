@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">meuApp</string>
+    <string name="hello_dio">Olá, DEV. Este é o desafio de Internacionalização da DIO com Android.</string>
+</resources>

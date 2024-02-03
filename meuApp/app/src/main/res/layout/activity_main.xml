@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:accessibilityLiveRegion="polite"
+    android:background="#B91E1C1C"
+    android:backgroundTint="#B2100F0F"
+    android:backgroundTintMode="multiply"
+    android:foreground="@drawable/ic_launcher_foreground"
+    android:foregroundTint="#80F110"
+    android:foregroundTintMode="multiply"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="383dp"
+        android:layout_height="305dp"
+        android:autoText="true"
+        android:background="#B520E60A"
+        android:breakStrategy="simple"
+        android:fontFamily="casual"
+        android:foreground="@android:drawable/ic_menu_mapmode"
+        android:foregroundGravity="top|right"
+        android:text="@string/hello_dio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:drawableBottomCompat="@android:drawable/btn_star_big_on"
+        app:emojiCompatEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992"
+        tools:ignore="Deprecated,TextSizeCheck,TextViewEdits,TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
